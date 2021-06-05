@@ -5,7 +5,7 @@ Created on Sat Jun  5 16:46:30 2021
 
 @author: Zeliha
 """
-def checkSpeciatTurkishChar(i):
+def checkSpecialTurkishChar(i):
     if((i=='ü') or (i=='Ü') or (i=='ö') or (i=='Ö') or (i=='ç') or (i=='Ç') or (i=='ğ') or (i=='Ğ') or (i=='ş') or (i=='Ş')):
         return 1
     else:
@@ -19,7 +19,7 @@ def find(word):
     if len(word)==0:
         return -1
     for i in word:
-        if((i.isalpha()==True) or (checkSpeciatTurkishChar(i)==1)):
+        if((i.isalpha()==True) or (checkSpecialTurkishChar(i)==1)):
             for j in deep_vowels:
                 if i==j:
                     flag1=1
