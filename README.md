@@ -1,3 +1,3 @@
 # some-programs
-two c program and 1 python program. <br>
+Question 1 -> büyük ünlü uyumu <br>
 ss are screen shots of outputs.
