@@ -26,10 +26,10 @@ int index__;
 
 
     void treeTravel(struct node* node) {
-        if (node != NULL) {
-            add_address((void*)&node);
+        if (node != NULL) { 
+            add_address((void*)&node); /* This code travels the tree,adding can be occure in any place between while scope it does not effect the result */
             treeTravel(node->left);
-            treeTravel(node->right);
+            treeTravel(node->right); /* Using preorder,inorder or post order travel will not change result because at the  all of them will visit all nodes in tree. */
         }
     }
     
@@ -49,7 +49,7 @@ int index__;
             {
                 if (addresses[i]==addresses[j])
                 {
-                    printf("I have found one duplicated link!!!\n");
+                    /* printf("I have found one duplicated link!!!\n"); */
                     return 1;
                 }
             }
