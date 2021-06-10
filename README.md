@@ -6,7 +6,7 @@ So I have choosen python programming.<br>
 Question 2-> fixed finally. <br>
 ss are screen shots of outputs. <br>
 
-/******************************************************************************************/
+/******************************************************************************************/ <br>
 Programlar
 
 Büyük Ünlü Uyumu
