@@ -52,5 +52,3 @@ if __name__ == "__main__":
     find(word)
     word=['I','ş','ı','l']
     find(word)
-    
-
